@@ -1,17 +1,17 @@
+# binarytree module used
+# binarytree only prints binary search trees
+# binarytree does not insert or sort binary trees
+from binarytree import Node
 
-# A utility function to search a given key in BST
-def search(root,key):
+def insert(rootx, x):
+    if x == root:
+        return rootx
+    elif rootx.val > x
+        root.right = Node(x)
+    if x < root:
+        root.left = Node(x)
 
-    # Base Cases: root is null or key is present at root
-    if root is None or root.val == key:
-        return root
+root x
 
-    # Key is greater than root's key
-    if root.val < key:
-        return search(root.right,key)
-
-    # Key is smaller than root's key
-    return search(root.left,key)
-
-print(search(1, 2))
-# This code is contributed by Bhavya Jain
+#BST list
+nodes = [1, 2, 3, 4, 5]
